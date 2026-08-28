@@ -1,8 +1,24 @@
 # Gundam SEED: Battle Assault — Recomp
 
-> **Work in Progress:** This recompilation project is currently under development. Features, compatibility, performance, and functionality may change as development continues.
+> **Work in Progress:** This recompilation is currently under active development. The core game functionality is working, but some graphical elements still need improvement.
 
 A modern fan-made recompilation project for **Gundam SEED: Battle Assault**, originally released for the **Nintendo Game Boy Advance**.
+
+## Current Status
+
+The recompilation is currently **playable and most of the game is working properly**.
+
+### Known Issues
+
+The primary remaining issues are graphical:
+
+* Battle UI graphics may display incorrectly.
+* Character portraits may display incorrectly.
+* Other graphical elements may require additional fixes and refinement.
+
+**Audio, gameplay, and other core functionality are intended to remain unchanged while the remaining graphical issues are addressed.**
+
+Contributors are welcome to investigate and improve the graphics implementation.
 
 ## ROM Required
 
@@ -15,27 +31,31 @@ The original ROM must **not** be uploaded to this repository or included with re
 ## Features
 
 * Game Boy Advance recompilation
-* **Work in progress / actively being developed**
-* Requires the user's own ROM file
-* No copyrighted ROM files are distributed with this project
-* No original Gundam, anime, artwork, music, or other copyrighted game assets are included
-* Fullscreen support
-* Press **Alt + Enter** to toggle fullscreen
-* Designed for modern systems
+* Currently playable / work in progress
+* Core gameplay functionality working
+* Audio functionality working
 * Keyboard controls
-* Source code intended to support community contributions
-* Bug fixes and feature improvements welcome
+* Fullscreen support
+* Pause/resume
+* Turbo/fast-forward
+* Community contributions
+* GitHub forking support
+* Designed for modern systems
 
 ## Controls
 
-| Keyboard Key   | Game Boy Advance Button |
-| -------------- | ----------------------- |
-| **X**          | A                       |
-| **Z**          | B                       |
-| **Enter**      | Start                   |
-| **Arrow Keys** | D-Pad                   |
-
-Additional controls may be configurable depending on the current version of the project.
+| Keyboard Key    | Game Boy Advance Button / Function |
+| --------------- | ---------------------------------- |
+| **Arrow Keys**  | D-Pad                              |
+| **X**           | A Button                           |
+| **Z**           | B Button                           |
+| **C**           | L Button                           |
+| **V**           | R Button                           |
+| **Enter**       | Start                              |
+| **Right Shift** | Select                             |
+| **Alt + Enter** | Fullscreen Toggle                  |
+| **Shift + P**   | Pause / Resume                     |
+| **Tab**         | Turbo / Fast-Forward               |
 
 ## Building From Source
 
@@ -72,27 +92,38 @@ The resulting executable will be placed in the project's build output directory.
 
 **The original game ROM is not included in this repository.**
 
-Because this project is currently under development, the build may not yet be fully functional or complete.
-
 ## Contributing
 
-Contributions and improvements are welcome!
+**Contributions are welcome!**
 
-Developers can **fork this repository**, make changes, test their work, and submit a **Pull Request**.
+Anyone interested in improving the recompilation can **fork this repository**, make changes, test their work, and submit a **Pull Request**.
 
-Possible contributions include:
+The project is specifically open to contributions that can help resolve the remaining graphical issues.
 
-* Bug fixes
+### Areas That Need Improvement
+
+* Battle UI rendering
+* Character portrait rendering
+* Other graphical compatibility issues
+* Graphics accuracy and consistency
 * Performance improvements
 * Controller improvements
 * Fullscreen improvements
 * Linux compatibility
 * Steam Deck compatibility
 * Build-system improvements
+* Documentation
 * Accessibility improvements
-* Documentation improvements
-* Configuration options
-* Additional platform support
+
+### How to Contribute
+
+1. **Fork** this repository.
+2. Clone your fork.
+3. Make your improvements.
+4. Build and test the recompilation.
+5. Commit your changes.
+6. Push your changes to your fork.
+7. Open a **Pull Request** back to this repository.
 
 Please do not submit copyrighted ROM files, Gundam assets, anime assets, music, artwork, or other proprietary game material.
 
@@ -120,10 +151,11 @@ Press **Alt + Enter** to toggle between windowed and fullscreen modes.
 
 ## Disclaimer
 
-This project is currently a **work in progress** and is not considered a finished or fully playable release.
+This project is currently a **work in progress**. While the core game is functional, graphical issues remain, particularly with the **battle UI and character portraits**.
 
 This project does not distribute the original game ROM or copyrighted game assets.
 
 Users must provide their own legally obtained ROM.
 
 This project is an independent fan-made recompilation and is **not affiliated with or endorsed by Nintendo, Bandai Namco, Sunrise, or other rights holders associated with the original game.**
+
