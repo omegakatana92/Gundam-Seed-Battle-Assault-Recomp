@@ -1,0 +1,8 @@
+{
+  "format": 1,
+  "tool": "gbarecomp",
+  "tool_version": "0.2.0",
+  "source_rom_name": "GEMini.gba",
+  "used_game_config": false,
+  "generated_at_unix": 1787588692
+}

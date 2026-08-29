@@ -1,0 +1,24 @@
+[game]
+name = "Mobile Suit Gundam Seed - Battle Assault"
+short_name = "gundam_seed_ba"
+default_region = "USA"
+
+[bios]
+# Supply a legally obtained GBA BIOS, or pass --bios at launch.
+path = "gba_bios.bin"
+
+[rom]
+path = "../../../games/Mobile Suit Gundam Seed - Battle Assault (USA).gba"
+sha1 = "8287d3d336d94a85c5cb22da0fd84918199197e1"
+
+[recompiler]
+entry_point = "0x08000000"
+out_dir = "generated"
+strict = false
+
+[save]
+type = "eeprom"
+
+[runtime]
+debug_port = 19842
+window_title = "Gundam Seed - Battle Assault"
